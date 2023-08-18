@@ -8,7 +8,7 @@ app.use('/api/', router)
 
 
 app.get('/', async (req, res)=>{
-    res.json({'hello': await translateText('I am single', {from:'en', to:'de',})})
+    res.send('<h1><a href="https://github.com/i-maple/unlimited_translate_api.git">Click Here to Read Docs of API</a></h1>')
 })
 
 app.listen(8000, ()=>{
