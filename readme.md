@@ -17,9 +17,32 @@ This free api can be used to utilize the unlimited translation feature for free.
 
 Instructions on how to install and set up your project. Include any prerequisites, dependencies, or system requirements.
 
-```shell
 Clone the repository by adding 
-
 ```shell
-# Provide commands for installing dependencies or running the setup
+https://github.com/i-maple/unlimited_translate_api.git in the command line
+```
+Then run
+```shell
 npm install
+```
+
+## EndPoints
+```shell
+- /api - Initial Route To Perform Translation Operations
+```
+
+### Query
+
+```
+- text=<text> - Provide the Text you want to translate
+- from=<from> - The language of the text (Language you want to translate from)
+- to=<to> - Language you want to translate to
+```
+Example URL is : 
+```
+https://<your-url.com>/api?text=<text>&from=<from>&to=<to>
+```
+## Limitation
+
+If more number of request is sent from same IP, the ip gets blocked. 
+You can bypass it using a proxy.
