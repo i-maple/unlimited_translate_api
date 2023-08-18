@@ -19,8 +19,10 @@ Instructions on how to install and set up your project. Include any prerequisite
 
 Clone the repository by adding 
 ```shell
-https://github.com/i-maple/unlimited_translate_api.git in the command line
+https://github.com/i-maple/unlimited_translate_api.git 
 ```
+in the command line
+
 Then run
 ```shell
 npm install
